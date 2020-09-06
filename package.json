@@ -1,19 +1,27 @@
 {
-  "name": "social-network-api",
+  "name": "social-networkapi",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "moment": "^2.27.0",
-    "mongoose": "^5.9.23",
+    "mongoose": "^5.10.3",
     "nodemon": "^2.0.4"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewMcFadden/social-networkAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewMcFadden/social-networkAPI/issues"
+  },
+  "homepage": "https://github.com/MatthewMcFadden/social-networkAPI#readme"
 }
